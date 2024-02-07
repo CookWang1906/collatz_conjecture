@@ -1,3 +1,5 @@
+#status: Completed
+#info: Pick a random positive integer. If EVEN then divise, if ODD then multiply the number by 3 and add 1.
 n = int(input("Please input your number here: "))
 while n < n*n:
     if n % 2==0:
